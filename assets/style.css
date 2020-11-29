@@ -21,11 +21,21 @@ nav{
     
 }
 
+section{
+    background-color: #ffffff;
+}
+
 footer {
     padding: 30px;
     background-color: gray;
 }
 
-h2{
-    visibility: hidden;
+
+section{
+    background-color: #ffffff;
+}
+
+#image1{
+    height: 150px;
+    width: 150px;
 }

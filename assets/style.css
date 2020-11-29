@@ -3,7 +3,7 @@ body {
     background-color: #228587;
     color:rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url("/images/Background-Pattern.png");
+    background-image: url("images/Background-Pattern.png");
 }
 
 /*Modification for the name  */
@@ -21,21 +21,44 @@ nav{
     
 }
 
-section{
-    background-color: #ffffff;
-}
-
-footer {
-    padding: 30px;
-    background-color: gray;
-}
-
 
 section{
     background-color: #ffffff;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 25px;
+
+
+}
+
+#sectiontitle{
+    font-size: 50px;
+    color: teal;
+    font-weight: bolder;
+    border-bottom: 2px solid grey;
 }
 
 #image1{
     height: 150px;
     width: 150px;
 }
+
+.ParaText{
+    size: 35px;
+}
+footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

@@ -41,12 +41,17 @@ section{
 #image1{
     height: 200px;
     width: 200px;
+   
   
 }
 
 .ParaText{
+    size: 15px;
 
-    size: 35px;
+}
+article{
+    padding-top: 15px;
+    size: 15px;
 }
 
 .clearfix::after {

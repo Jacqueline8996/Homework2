@@ -5,6 +5,7 @@ body {
     color:rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url("Images/Background-Pattern.png");
+    font-size: 15px;
 }
 
 /*Modification for the name  */
@@ -20,6 +21,9 @@ nav{
     color: black;
    
     
+}
+.navbar{
+    padding-right: 0px;
 }
 
 
@@ -45,13 +49,9 @@ section{
   
 }
 
-.ParaText{
-    size: 15px;
-
-}
 article{
     padding-top: 15px;
-    size: 15px;
+
 }
 
 .clearfix::after {
@@ -79,3 +79,32 @@ article{
     font-size: 10px;
     text-align: center;
 }
+
+@media all and (max-width: 750px) {  
+    
+   body{
+        font-size: 8px; 
+    }
+    h1 {  
+        font-size: 15px;  
+    }
+    section{
+        text-overflow:ellipsis;
+        
+
+    }
+    #image1{
+        height:75px;
+        width: 75px;
+    }
+    #sectiontitle{
+        font-size: 15px;
+    }
+
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: rgb(0, 0, 0);
+    }
+
+  
+  }

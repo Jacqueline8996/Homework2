@@ -18,18 +18,15 @@ h1{
 /*for nav bar */
 nav{
     background-color:#ffffff;
-    color: black;
-   
-    
-}
-.navbar{
-    padding-right: 0px;
+    color: #ffffff; 
 }
 
 .navbar-brand{
-    background-color:teal;
-    color: #ffffff
+    background-color: teal;
+    color: #ffffff;
 }
+
+
 
 section{
     background-color: #ffffff;

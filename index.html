@@ -17,42 +17,36 @@
 
 
 <body>
-    
-    <!--Navagator bar-->
-    <Nav>
-        <div class="container">
-            <div class="row">
-                <!--Section for name-->
-                <div class="col-md-4">
-                    <h1>Jacqueline Rivera</h1>
-                </div>
+    <!--Nav Bar that collapse-->
+    <nav class="navbar navbar-light navbar-expand-md">
 
-                <!--place holder column-->
-                <div class="col-md-4">
-                </div>
+        <a class="navbar-brand" href="#">JacquelineRivera</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <!--Section for name will adjust color later -->
-                <div class="col-md-4">
-                    <div class="navbar">
-                        <ul class="nav justify-content-end">
-                            <!--Links about me tab-->
-                            <li class="nav-item">
-                            <a class="nav-link" href="assets/contact.html">Contact</a>
-                            </li>
-                            <!--Links portfolio tab-->
-                            <li class="nav-item">
-                            <a class="nav-link" href="assets/portfolio.html">Portfolio</a>
-                            </li>
-                            <!--Links index aka about me tab-->
-                            <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <!--Nav bar functions-->
+        <div class="collapse navbar-collapse" id="navbar1">
+            
+            <ul class="navbar-nav ml-auto">
+                
+            <!--Links to assest -->
+            <li class="nav-item ">
+                <a class="nav-link" href="assets/contact.html">Contact</a>
+            </li>
+            <!--Links to portfolio-->
+            <li class="nav-item">
+                <a class="nav-link" href="assets/portfolio.html">Portfolio</a>
+            </li>
+
+            <!--Links to About as well is the current page so it will be highlighted-->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+
+            </ul>
         </div>
-    </Nav>
+    </nav>
 
     <!--Dividing main cocontent-->
     <div class="container">

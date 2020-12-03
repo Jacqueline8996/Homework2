@@ -26,6 +26,10 @@ nav{
     padding-right: 0px;
 }
 
+.navbar-brand{
+    background-color:teal;
+    color: #ffffff
+}
 
 section{
     background-color: #ffffff;
@@ -88,11 +92,7 @@ article{
     h1 {  
         font-size: 15px;  
     }
-    section{
-        text-overflow:ellipsis;
-        
 
-    }
     #image1{
         height:75px;
         width: 75px;
@@ -102,9 +102,5 @@ article{
     }
 
 
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-        border-color: rgb(0, 0, 0);
-    }
-
-  
+    
   }

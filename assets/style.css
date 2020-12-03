@@ -5,7 +5,7 @@ body {
     color:rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url("Images/Background-Pattern.png");
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /*for nav bar */
@@ -20,10 +20,12 @@ nav{
 /*section desgin*/
 section{
     background-color: #ffffff;
-    margin-top: 75px;
     margin-bottom: 75px;
-    border:5px solid white;
+    margin-top:75px;
+    padding: 15px;
+    border:10px solid #ffffff;
 }
+
 /*Standard title scheme for all pages*/
 #sectiontitle{
     font-size: 50px;
@@ -46,32 +48,28 @@ section{
 /*all text in about me*/
 .ParaText{
     border: 0px;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
 }
-
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-
+/*Image sizes for Portfolio*/
 .portImg{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     padding: 2px;
     margin: 5px;
     border: 1px solid black;
       
 }
 
-
-
 /* footer formating */
 footer {
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: grey;
     position: fixed;
     bottom: 0;

@@ -18,12 +18,11 @@
 
 <body>
     
-    
     <!--Navagator bar-->
-    <nav class="navbar navbar-light navbar-expand-md">
+    <nav class="navbar navbar-light navbar-expand-lg">
 
         <!--Nav Bar title-->
-        <a class="navbar-brand text-white" href="#">Contact</a>
+        <a class="navbar-brand text-white" href="contact.html">Contact</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,46 +51,55 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-md">
         <div class="row">
 
             <!--Divideded context in two part-->
-            <div class="col-lg-8">
+            <div class="col-sm-6">
                 <!--contact information title-->
                 <section>
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-sm-12">
                             <p id="sectiontitle">Contact</p>
                         </div>
                     </div>
                     
                     <!--user will input there info here-->
                     <div class="row">
-                        
-                        <form>
-                            <!--Gets user first name -->
-                            <div class="form-group">
-                              <label for="exampleFormControlInput1">Name</label>
-                              <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="FirstName">
-                            </div>
-                           
-                            <!--Gets user email-->
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
+                        <div class="col-sm-8">
+                            <form>
+                                <!--Gets user first name -->
+                                <div class="form-group">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                </div>
+                            
+                                <!--Gets user email-->
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
 
-                            <!--gets user message-->
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Message</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
+                                <!--gets user message-->
+                                <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
 
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn btn-info mb-2">Submit</button>
-                            </div>
-    
-                        </form>
+                                <!--Button to submit-->
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn btn-info mb-2">Submit</button>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <!--This section will be a place holder-->
+                        <div class="col-sm-4">
+                            <aside class="clearfix">
+
+                            </aside>
+                        </div>
 
                     </div>
             
@@ -100,11 +108,11 @@
             </div>
 
             <!--This section will be a place holder-->
-            <div class="col-lg-4">
+            <div class="col-sm-6">
                 <aside class="clearfix">
                 </aside>
             </div>
-                
+            
 
         </div>
 

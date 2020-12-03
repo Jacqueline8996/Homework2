@@ -22,7 +22,7 @@ section{
     background-color: #ffffff;
     margin-top: 75px;
     margin-bottom: 75px;
-    padding: 20px;
+    border:5px solid white;
 }
 /*Standard title scheme for all pages*/
 #sectiontitle{
@@ -57,18 +57,19 @@ section{
     display: table;
   }
 
-  .portImg{
-      height: 250px;
-      width: 250px;
-      padding: 10px;
-      margin: 10px;
-      border: 1px solid black;
+.portImg{
+    height: 250px;
+    width: 250px;
+    padding: 2px;
+    margin: 5px;
+    border: 1px solid black;
       
-  }
-  
+}
 
-  /* footer formating */
-  footer {
+
+
+/* footer formating */
+footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: grey;

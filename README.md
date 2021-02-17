@@ -12,4 +12,18 @@
  
 # Installation:
   There is no installation required for this page, all files can be viewed at the following link:
-* https://jacqueline8996.github.io/Homework2/ 
+* GitHUB Repo : https://github.com/Jacqueline8996/Portfolio
+* Live Link: https://jacqueline8996.github.io/Portfolio/
+
+# Page Images 
+* Images of the home page of the link 
+![alt text](asset/Images/StartProfile.png)
+
+* Resources on Me will be located here 
+![alt text](asset/Images/Portfolio.png)
+
+* Contact information can be delivered 
+![alt text](asset/Images/Contact.png)
+
+# Future developement : 
+*  Figuring out how to get user input to keep them updated. 

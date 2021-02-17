@@ -79,3 +79,9 @@ footer {
     font-size: 10px;
     text-align: center;
 }
+.download{
+    color: black;
+}
+.download:hover{
+    color: white;
+}

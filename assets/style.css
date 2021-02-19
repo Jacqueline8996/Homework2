@@ -85,3 +85,6 @@ footer {
 .download:hover{
     color: white;
 }
+#instruction{
+    color: teal;
+}

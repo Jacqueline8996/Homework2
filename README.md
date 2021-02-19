@@ -27,3 +27,12 @@
 
 # Future developement : 
 *  Figuring out how to get user input to keep them updated. 
+
+# Link to projects : 
+*  Figuring out how to get user input to keep them updated. 
+* * Weather DashBoard: https://jacqueline8996.github.io/Homework6/
+* * Project 1 : https://nvandenberge.github.io/LetsPlanADay/
+* * Code Quiz: https://jacqueline8996.github.io/Homework4/
+
+# Link to LinkedIn:
+* https://www.linkedin.com/in/jacqueline-rivera/

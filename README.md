@@ -17,13 +17,13 @@
 
 # Page Images 
 * Images of the home page of the link 
-![alt text](asset/Images/StartProfile.png)
+![alt text](assets/Images/StartProfile.png)
 
 * Resources on Me will be located here 
-![alt text](asset/Images/Portfolio.png)
+![alt text](assets/Images/Portfolio.png)
 
 * Contact information can be delivered 
-![alt text](asset/Images/Contact.png)
+![alt text](assets/Images/Contact.png)
 
 # Future developement : 
 *  Figuring out how to get user input to keep them updated. 

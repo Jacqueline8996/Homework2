@@ -88,3 +88,18 @@ footer {
 #instruction{
     color: teal;
 }
+#infoCard{
+    background-color: white;
+    margin-bottom: 75px;
+    margin-top:75px;
+    padding: 15px;
+}
+#divInfo{
+    margin-top:15px;
+
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
